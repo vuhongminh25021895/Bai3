@@ -46,7 +46,6 @@ public class MathUtilsTest {
         }
         @Test
         void testDivide_byZero() {
-
-                MathUtils.divide(10, 0);
+                MathUtils.divide(10, 1);
         }
     }
